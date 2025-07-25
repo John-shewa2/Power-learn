@@ -1,5 +1,6 @@
 🧮 Python Command-Line Calculator
 This is a simple interactive calculator script written in Python. It allows the user to enter two numbers and choose a mathematical operation to perform. The program repeats until the user decides to quit.
+
 .............................................................................
 
 ✅ Features
@@ -11,6 +12,7 @@ C: Division (with zero division check)
 D: Subtraction
 Handles invalid inputs (e.g., letters instead of numbers)
 Asks the user if they want to perform another calculation
+
 .............................................................................
 
 ▶️ How to Run
@@ -19,6 +21,7 @@ Save the code as a .py file, for example:
 calculator.py
 Open your terminal or command prompt, navigate to the file's directory, and run:
 python calculator.py
+
 .............................................................................
 
 📝 Sample Usage
@@ -33,6 +36,7 @@ Your choice: a
 Result of 10.0 + 5.0 = 15.0
 Do you want to try again? (y/n): n
 Thank you!
+
 .............................................................................
 
 ⚠️ Notes
