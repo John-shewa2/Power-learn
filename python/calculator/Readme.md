@@ -1,8 +1,8 @@
 🧮 Python Command-Line Calculator
 
-This is a simple interactive calculator script written in Python. 
+This is a simple interactive calculator script written in Python.
 
-It allows the user to enter two numbers and choose a mathematical operation to perform. 
+It allows the user to enter two numbers and choose a mathematical operation to perform.
 
 The program repeats until the user decides to quit.
 
