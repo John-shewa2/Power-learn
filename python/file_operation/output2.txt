@@ -1,0 +1,5 @@
+file manipulation in python involves opening, reading, writing, and closing files using built-in functions.
+the open() function is used to access a file, with modes like 'r' (read), 'w' (write), 'a' (append), and 'rb'/'wb' for binary files.
+you can read file content using methods like .read(), .readline(), or .readlines().
+to write to a file, use .write() or .writelines() after opening it in write or append mode.
+always close a file using .close(), or use a with open(...) as f: block for automatic handling.
