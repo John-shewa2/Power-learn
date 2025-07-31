@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header style="text-align: center; padding: 20px">
+      <img
+        src="assets/profilepic.jpg"
+        alt="Yohannes Shewakena"
+        class="profile-pic"
+      />
+      <h1>YOHANNES SHEWAKENA</h1>
+      <p>
+        Investment Banker | Skilled in Google Workspace & Microsoft Office |
+        Certified in Data Analysis & AI. <br> Passionate about Fintech and Software 
+        Programming — currently studying Software Development.</br>
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="Skills">
+      <h2>My Skills</h2>
+      <div class="programming-languages">
+        <div class="card">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <p>Experienced in building web apps and data analysis tools.</p>
+        </div>
+        <div class="card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Skilled in creating dynamic, interactive web applications.</p>
+        </div>
+        <div class="card">
+          <i class="fab fa-java"></i>
+          <h3>Java</h3>
+          <p>Proficient in developing robust backend systems.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-code"></i>
+          <h3>C++</h3>
+          <p>Used for performance-critical applications and algorithms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about">
+        <p>
+          Hi, I'm Your Name, a passionate software developer with a knack for
+          solving complex problems. My journey in tech began with a curiosity
+          for how things work, and now I thrive on building innovative solutions
+          that make a difference. I love collaborating with teams, learning new
+          technologies, and turning ideas into reality.
+        </p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Educational Background</h2>
+      <div class="education">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>University Name, 2018 - 2022</p>
+        <p>
+          Graduated with honors, focusing on software engineering and data
+          structures.
+        </p>
+        <a href="path/to/your-cv.pdf" download>Download My CV</a>
+      </div>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <div class="interests">
+        <p>
+          I’m excited about the future of artificial intelligence and its
+          potential to transform industries. I enjoy exploring open-source
+          projects, contributing to tech communities, and staying updated with
+          the latest advancements in web development and cloud computing.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Project One</h3>
+          <p>
+            A web app for task management built with JavaScript and Node.js.
+          </p>
+          <a href="https://github.com/yourusername/project-one" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="card">
+          <h3>Project Two</h3>
+          <p>
+            A machine learning model for predicting stock prices using Python.
+          </p>
+          <a href="https://github.com/yourusername/project-two" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="card">
+          <h3>Project Three</h3>
+          <p>
+            A responsive e-commerce website built with HTML, CSS, and
+            JavaScript.
+          </p>
+          <a
+            href="https://github.com/yourusername/project-three"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea
+          id="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button onclick="sendMessage()">Send Message</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function sendMessage() {
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const message = document.getElementById("message").value;
+
+        if (name && email && message) {
+          alert("Message sent successfully! (This is a demo)");
+          document.getElementById("name").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("message").value = "";
+        } else {
+          alert("Please fill in all fields.");
+        }
+      }
+    </script>
+  </body>
+</html>
