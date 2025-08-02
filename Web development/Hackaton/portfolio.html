@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Set character encoding and responsive layout -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
     <title>Yohannes Shewakena | Portfolio</title>
+
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="portfolio.css" />
+
+    <!-- Font Awesome icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
   <body>
+    <!-- ===== Header Section: Profile image, name, and title ===== -->
     <header>
       <img
         src="assets/profilepic.jpg"
@@ -21,6 +29,7 @@
       <p>Investment Banker | Software Development Student</p>
     </header>
 
+    <!-- ===== Navigation Menu: Links to page sections ===== -->
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
@@ -32,7 +41,9 @@
       </ul>
     </nav>
 
+    <!-- ===== About & Education Section Wrapper ===== -->
     <div class="about-education">
+      <!-- ===== About Me Section ===== -->
       <section id="about">
         <h2>About Me</h2>
         <p>
@@ -43,13 +54,15 @@
           I’m passionate about fintech and software development—a path I’m
           actively pursuing alongside my existing expertise.
         </p>
+        <!-- Downloadable Resume -->
         <p>
-          <a href="assets/Yohannes Shewakena_Resume.pdf" download
-            >📄 Download My CV</a
-          >
+          <a href="assets/Yohannes Shewakena_Resume.pdf" download>
+            📄 Download My CV
+          </a>
         </p>
       </section>
 
+      <!-- ===== Education Section ===== -->
       <section id="education">
         <h2>Education</h2>
         <ul>
@@ -80,6 +93,7 @@
         </ul>
       </section>
 
+      <!-- ===== Placeholder Projects Section ===== -->
       <section id="projects">
         <h2>Projects</h2>
         <p>
@@ -88,7 +102,9 @@
       </section>
     </div>
 
+    <!-- ===== Skills & Interests Section Wrapper ===== -->
     <div class="skills-interests">
+      <!-- ===== Skills Section ===== -->
       <section id="skills">
         <h2>Skills</h2>
         <ul>
@@ -100,6 +116,7 @@
         </ul>
       </section>
 
+      <!-- ===== Interests Section ===== -->
       <section id="interests">
         <h2>Interests</h2>
         <ul>
@@ -113,9 +130,11 @@
       </section>
     </div>
 
+    <!-- ===== Contact Form Section ===== -->
     <section id="contact">
       <h2>Contact Me</h2>
       <form>
+        <!-- Name Field -->
         <label for="name">Name:</label><br />
         <input
           type="text"
@@ -125,6 +144,7 @@
           required
         /><br /><br />
 
+        <!-- Email Field -->
         <label for="email">Email:</label><br />
         <input
           type="email"
@@ -134,6 +154,7 @@
           required
         /><br /><br />
 
+        <!-- Message Field -->
         <label for="message">Message:</label><br />
         <textarea
           id="message"
@@ -144,12 +165,16 @@
         ></textarea
         ><br /><br />
 
+        <!-- Submit Button -->
         <input type="submit" value="Send Message" />
       </form>
     </section>
 
+    <!-- ===== Footer Section: Copyright + Social Links ===== -->
     <footer>
       <p>&copy; 2025 Yohannes Shewakena</p>
+
+      <!-- Social Media Links -->
       <div class="social-links">
         <a
           href="https://linkedin.com/Yohannes-Shewakena"
