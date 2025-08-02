@@ -1,0 +1,91 @@
+/* Header Styles */
+body {
+  background-color: #1a1a1a; 
+}
+header {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 0; /* Padding for header */
+  text-align: center; /* Centered text */
+}
+h1 {
+    color: #333;
+    font-family: sans-serif, Arial;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif, Arial;
+    font-size: 1.2em;
+}
+
+/* Section Titles */
+h2 {
+    color: #555;
+    font-family: sans-serif, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#white-heading {
+  color: white;
+}
+
+/* General Layout */
+#lists-tables-media, #user-form {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #0c0c0c;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* List and Table Styling */
+#lists,
+#table {
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #110f0f;
+    border-radius: 5px;
+    background-color: #5ad484;
+    width: 80%;
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside;
+    text-align: center;
+    color: rgb(13, 11, 4);
+}
+
+ul, ol, img, figure, video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* Table Specific Styling */
+#table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#table th, #table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Media Elements */
+figure, video {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
