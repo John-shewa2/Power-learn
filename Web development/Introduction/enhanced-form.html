@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Enhanced Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Enhanced Form Example</h1>
+      <p>
+        This page demonstrates various HTML elements including lists, tables,
+        media, and a form.
+      </p>
+    </header>
+
+    <section>
+      <!-- Lists, tables, media -->
+      <!-- Unordered List -->
+      <h2>Adding unordered List</h2>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+      </ul>
+
+      <!-- Ordered List -->
+      <h2>Adding ordered List</h2>
+      <ol>
+        <li>Fill the form</li>
+        <li>Submit documents</li>
+        <li>Confirm email</li>
+      </ol>
+
+      <!-- Table -->
+      <h2>Adding table</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>90</td>
+        </tr>
+      </table>
+
+      <!-- Media -->
+      <h2>Adding an Image</h2>
+      <figure>
+        <img src="hulk.jpeg" alt="Sample Image" width="320" height="240" />
+        <figcaption>The Hulk</figcaption>
+      </figure>
+
+      <h2>Adding a Video</h2>
+      <video width="320" height="240" controls>
+        <source
+          src="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>Adding a Form with different input fields</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+          autocomplete="name"
+        /><br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+          autocomplete="email"
+        /><br /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+          title="Password must be at least 8 characters and include uppercase, lowercase, number, and special character."
+          required
+        />
+        <br /><br />
+
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="1"
+          max="120"
+        /><br /><br />
+
+        <label for="country">Country: </label>
+        <input
+          type="text"
+          name="country"
+          value="Ethiopia"
+          readonly
+        /><br /><br />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" /><br /><br />
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option></select
+        ><br /><br />
+
+        <label>Favorite Fruit:</label>
+        <input type="radio" id="apple" name="fruit" value="apple" />
+        <label for="apple">Apple</label>
+        <input type="radio" id="banana" name="fruit" value="banana" />
+        <label for="banana">Banana</label>
+        <input type="radio" id="orange" name="fruit" value="orange" />
+        <label for="orange">Orange</label><br /><br />
+
+        <label>Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" />
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports" />
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobbies" value="music" />
+        <label for="music">Music</label><br /><br />
+
+        <label for="bio">Short Bio:</label><br />
+        <textarea id="bio" name="bio" rows="4" cols="40"></textarea><br /><br />
+        <input type="submit" value="Register" />
+      </form>
+    </section>
+  </body>
+  <footer>
+    <p>&copy; 2025 Yohannes Shewakena</p>
+  </footer>
+</html>
