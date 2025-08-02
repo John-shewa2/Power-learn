@@ -2,10 +2,6 @@
 
 This is a personal portfolio website built with **HTML** and **CSS** to showcase my professional background, education, skills, interests, and contact information.
 
-## 🔗 Live Preview
-
-Coming Soon – You can host this website on GitHub Pages, Netlify, or Vercel.
-
 ## 📁 Project Structure
 
 ```
