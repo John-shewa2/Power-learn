@@ -1,0 +1,109 @@
+/* Reset some basic styles for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
+
+/* Header styling */
+header {
+  background-color: #004466;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation styling */
+nav {
+  background-color: #006699;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+  color: #004466;
+  margin-bottom: 1rem;
+}
+
+main p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* Aside for extra context */
+aside {
+  background-color: #eef;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-left: 4px solid #004466;
+}
+
+/* Footer */
+footer {
+  background-color: #004466;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive Typography */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}

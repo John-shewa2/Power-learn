@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata for character encoding, responsive design, and SEO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern and accessible web page that demonstrates HTML5 semantic structure and SEO best practices."
+    />
+    <meta
+      name="keywords"
+      content="HTML5, semantic HTML, accessibility, SEO, web development"
+    />
+    <meta name="author" content="Your Name" />
+
+    <!-- Title of the web page (shown on browser tab) -->
+    <title>Accessible & SEO-Friendly Web Page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header section typically contains the logo, main heading, and navigation -->
+    <header role="banner">
+      <h1>Welcome to Accessible Web</h1>
+      <!-- Main heading for the page -->
+      <p>Your guide to semantic, accessible, and SEO-friendly websites.</p>
+
+      <!-- Navigation menu with ARIA label for screen readers -->
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content of the page -->
+    <main role="main">
+      <!-- About section with accessible heading -->
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About This Website</h2>
+        <p>
+          This website is built with HTML5 semantic elements to enhance both
+          accessibility for users and discoverability for search engines. By
+          following best practices, we ensure that content is well-structured,
+          easy to navigate, and machine-readable.
+        </p>
+      </section>
+
+      <!-- Features section using <article> for individual items -->
+      <section id="features" aria-labelledby="features-heading">
+        <h2 id="features-heading">Key Features</h2>
+
+        <!-- Article 1: Semantic Structure -->
+        <article aria-labelledby="feature1-heading">
+          <h3 id="feature1-heading">Semantic Structure</h3>
+          <p>
+            Using semantic HTML elements like <code>&lt;article&gt;</code>,
+            <code>&lt;section&gt;</code>, and <code>&lt;header&gt;</code>
+            helps browsers and screen readers understand the hierarchy and
+            purpose of content.
+          </p>
+        </article>
+        <!-- Article 2: Accessibility -->
+        <article aria-labelledby="feature2-heading">
+          <h3 id="feature2-heading">Accessibility</h3>
+          <p>
+            We apply ARIA roles and labels to improve screen reader navigation.
+            All images include <code>alt</code> attributes and navigation is
+            keyboard-friendly.
+          </p>
+        </article>
+
+        <!-- Article 3: SEO -->
+        <article aria-labelledby="feature3-heading">
+          <h3 id="feature3-heading">Search Engine Optimization (SEO)</h3>
+          <p>
+            Proper use of heading tags, meta descriptions, and descriptive
+            anchor text makes the page more indexable and relevant to search
+            engines.
+          </p>
+        </article>
+      </section>
+
+      <!-- Aside: Optional content like related links or advertisements -->
+      <aside aria-label="Related resources">
+        <h2>Related Links</h2>
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >HTML Reference on MDN</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com" target="_blank">W3 Schools</a>
+          </li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Footer section, usually at the bottom of the page -->
+    <footer role="contentinfo">
+      <p>&copy; 2025 Accessible Web. All rights reserved.</p>
+
+      <!-- Secondary navigation for footer -->
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="#top">Back to top</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
