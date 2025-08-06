@@ -1,7 +1,7 @@
-# Load the CSV file using pandas.
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# Load the CSV file using pandas.
 df = pd.read_csv('E:\Power learn\python\Data analysis\sales_data.csv')
 print(df)
 
